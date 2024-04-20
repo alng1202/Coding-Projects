@@ -13,4 +13,23 @@ def divide(a, b):
     except ZeroDivisionError:
         print("Cannot divide by zero.")
 
-print(divide(3, 0))
+def main():
+    cont = True
+    while (cont):
+        calc = input("Add, subtract, multiply, divide, or QUIT: ").lower()
+        a = input("First number: ")
+        b = input("Second number: ")
+
+        if (calc == "add" or calc == "+"):
+            add(a, b)
+        elif (calc == "add" or calc == "+"):
+            add(a, b)
+        elif (calc == "add" or calc == "+"):
+            add(a, b)
+        elif (calc == "add" or calc == "+"):
+            add(a, b)
+        else:
+            print("Invalid input.")
+
+            
+        
